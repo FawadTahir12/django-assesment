@@ -1,0 +1,3 @@
+.venv
+/image_analysis/.env
+__pycache__/
