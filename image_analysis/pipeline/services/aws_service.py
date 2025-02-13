@@ -8,7 +8,7 @@ class S3Service:
             's3',
             aws_access_key_id=settings.AWS_ACCESS_KEY_ID,
             aws_secret_access_key=settings.AWS_SECRET_ACCESS_KEY,
-            region_name=settings.AWS_REGION
+            region_name=settings.AWS_S3_REGION_NAME
         )
         self.bucket_name = settings.AWS_STORAGE_BUCKET_NAME
 
