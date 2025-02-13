@@ -1,5 +1,6 @@
 import os
 from celery import Celery
+
 from .settings.base import DEBUG
 
 
